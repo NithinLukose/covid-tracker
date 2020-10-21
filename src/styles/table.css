@@ -1,0 +1,23 @@
+
+
+
+.table__conatiner{
+    height:400px;
+    overflow-y: scroll;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table__conatiner table{
+    width: 100%;
+}
+
+.table__conatiner table tr>td{
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.table__conatiner table tr:nth-of-type(odd){
+    background-color: rgb(206, 200, 200);
+}
+
